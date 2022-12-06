@@ -1,0 +1,408 @@
+*{margin: 0;
+    padding: 0;
+box-sizing: border-box;}
+
+:root{
+    /* hola esto es un comentario jejeje , poniendo colores con nombres mios  */
+--naranja:#f7931a;
+--raro: #ffe9d5;
+--secondary-blue: #1a9af7;
+--soft-blue: #e7f5ff;
+--warm-black: #282623;
+--black: #201e1c;
+--grey: #bababa;
+--off-white: #faf8f7;
+--just-white: #fff;
+}
+
+html {/*otro comentario , el font size ese es para depues usar pixeles con decimale*/
+    font-size: 62.5%;
+  font-family: "DM Sans", sans-serif;
+  min-width: 320px;
+}
+
+
+
+header{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    align-items: center;   
+    min-width: 320px;
+    width:100% ;
+    height: 334px;
+    text-align: center;
+    background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
+}
+
+header img{
+    width: 150px;
+    height: 24px;
+    margin-top: 60px;
+    align-self: center;
+}
+
+.header--title-container{
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    margin-top: 50px;
+    align-self: center;
+    text-align: center;
+}
+.header--title-container h1{
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color:var(--just-white);
+
+}
+.header--title-container p{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color:var(--raro);
+    margin-top: 25px;
+
+}
+.header--title-container .header--button{
+    background-color: #faf8f7;
+    height: 48px;
+    background-color: #faf8f7;
+    top: 270px;
+    position: absolute;
+    display: block;
+    padding: 15px;
+     left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+    border-radius: 10px; 
+    text-decoration: none;
+    box-shadow: 0px 4px 8px black;
+    width: 200px   ;
+    height: 48px;
+    font-size: 1.4rem;
+    font-weight:bolder;
+    color: #201e1c;
+}
+.header--title-container .header--button span{
+    display: inline-block;
+    width: 13px;
+    right: 8px;
+    margin-left: 10px;
+    background-image: url("./iconos/assets/icons/down-arrow.svg");
+    background-repeat: no-repeat;
+}
+header .image img{
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    left: 90px;
+    top: 65px;
+    object-fit: cover;
+    border-radius: 500px;
+}
+
+
+header .image2 img{
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    right: 90px;
+    top: 65px;
+    object-fit: cover;
+    border-radius: 500px;
+}
+
+
+main{
+    width: 100%;
+    height: auto;
+    background-color: var(--off-white);
+}
+
+.img-title{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    
+}
+
+
+.img-title .title{
+    width: 90%;
+    margin:0px auto;
+    min-width: 288px;
+    max-width: 900px;
+}
+
+.img-title .backgroud{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    background-image: url("./iconos/assets/img/Bitcoin.svg");
+    background-position: center;
+    min-width: 320px;
+}
+
+
+.solito{background-color:black;
+        color: var(--just-white);
+        width: 100%;
+        position: relative;
+        min-width: 320px;
+        height: auto;
+        padding: 20px 10px;}
+
+.loguito{    top:-10px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: AUTO;
+    }
+
+H3{margin-top: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    margin: auto ;
+    margin-bottom: 20px;
+    width: 90%;
+    }
+.solito .text p{width: 90%;
+    margin: auto;
+    text-align: center;
+    color: var(--grey);
+    margin-bottom: 15px;
+}
+
+.text2{ width: 90%;
+    margin: auto;
+    padding: 15px;
+    text-align: left;
+    color: var(--grey);
+    background-color: var(--warm-black);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.16);
+    border-radius: 5px;
+    line-height: 1,5px;
+    margin-bottom: 10px;
+    min-width: 320px;
+}
+
+.text3{ width: 90%;
+    margin: auto;
+    padding: 15px;
+    text-align: left;
+    color: var(--grey);
+    background-color: var(--warm-black);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.16);
+    border-radius: 5px;
+    line-height: 1,5px;
+    margin-bottom: 10px;
+    min-width: 320px;
+}
+
+.text4{ width: 90%;
+    margin: auto;
+    padding: 15px;
+    text-align: left;
+    color: var(--grey);
+    background-color: var(--warm-black);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.16);
+    border-radius: 5px;
+    line-height: 1,5px;
+    min-width: 320px;
+}
+
+.ultima{background-image: url("./iconos/assets/img/bitcoinbaby.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 320px;
+width: 100%;
+height: 50vh;
+font-size: 20px;
+text-align: center;
+color: var(--raro);
+}
+.ultima p{padding-top: 60px;
+
+;}
+
+
+.tercera--parte .uno--div h2{
+    font-size: 20px;
+    text-align: center; 
+    font-weight: bolder;
+    padding: 20px 0px 10px ;
+    min-width: 320px;
+}
+
+
+.tercera--parte .uno--div p{
+    font-size: 12px;
+    text-align: center; 
+    min-width: 320px;
+    padding: 20px 10px;
+}
+
+
+
+.tercera--parte-2 .art2 .p1{
+    font-weight: bolder;
+    text-align: center;
+}
+
+
+.tercera--parte-2 .art2 .p2{
+    font-weight: bolder;
+    text-align: center;
+    font-size: 60px;
+}
+
+.tercera--parte-2 .art2 .p2 span{
+    font-size: 12px;
+    text-align: start;
+    height: 30px;
+    vertical-align: super;
+    min-width: 320px;
+}
+.tercera--parte-2 .art2{
+    box-shadow: 0px 4px 8px darkgrey;
+    text-align: center ;
+    width: 60%;
+    margin: auto auto auto auto;
+    position: relative;
+    box-shadow: #282623;
+    height: auto;
+    min-width: 320px;
+}
+.tercera--parte-2 .art2 .probando{
+    display: inline-block;}
+
+    .tercera--parte-2 .art2 .p3{
+        font-size: 12px;
+        text-align: center; 
+        min-width: 320px;
+        padding: -10px 20px;
+    }
+
+    .tercera--parte-2 .art2 .boton{
+        border: #f7931a solid 2px;
+        padding: 10px;
+        font-weight: bolder;
+        margin-top: 20px;
+        background-color: #bababa;
+        min-width: 320px;
+    }
+
+    .tercera--parte-2 .art2 .titulo{
+        background-color: #f7931a;
+        color: var(--just-white);
+        font-size: 20px;
+        position: absolute;
+        top: -12px;
+      
+        min-width: 320px;  width: 60%;
+       left: 0;
+       right: 0;
+       margin-left: auto;
+       margin-right: AUTO;
+       border-radius: 5px;
+        
+    }
+
+
+    
+    .tercera--parte-3{padding: 20px 0px;
+    ;}
+    .tercera--parte-3 .art3 .titulo3{
+        background-color: #f7931a;
+        color: var(--just-white);
+        font-size: 20px;
+        position: absolute;
+        top: -12px;
+       width: 60%;
+       left: 0;
+       right: 0;
+       margin-left: auto;
+       min-width: 320px;
+       margin-right: AUTO;
+       border-radius: 5px;
+        
+    }
+
+    .tercera--parte-3 .art3 .p2{font-size: 60px;
+    font-weight: bolder;}
+    .tercera--parte-3 .art3 .p2 span{
+        font-size: 12px;
+        text-align: start;
+        height: 30px;
+        vertical-align: super;
+    }
+    .tercera--parte-3 .art3{
+        box-shadow: 0px 4px 8px darkgrey;
+        text-align: center ;
+        width: 60%;
+        margin: auto auto auto auto;
+        position: relative;
+        box-shadow: #282623;
+        height: 100%;
+    }
+
+
+    .tercera--parte-3 .art3 .boton{
+        border: #f7931a solid 2px;
+        padding: 10px;
+        font-weight: bolder;
+        margin-top: 20px;
+        background-color: #bababa;}
+
+    .tercera--parte-3 .art3 .probando{
+        display: inline-block;}
+    
+        .tercera--parte-3 .art3 .p3{
+            font-size: 12px;
+            text-align: center; 
+          
+            padding: -10px 20px;
+        }
+
+        .footer{
+                background-color: #f7931a;
+                font-size: 16px;
+                color: #faf8f7;
+                text-shadow: #201e1c;
+                align-items: left;
+                display: flex;
+               justify-content: center;
+                width: 100%;
+                min-width: 320px;
+
+        }
+
+
+        .sectionone{
+            padding: 20px;
+            margin-bottom: 10px;
+            display: flex  ;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .sectionone  li a{margin-bottom: 10px;
+        color: #e7f5ff;
+            text-decoration: none;
+        list-style: none;}
+        .sectiontwo{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        ul{list-style: none;}
